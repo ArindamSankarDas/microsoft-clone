@@ -16,6 +16,10 @@
     @apply absolute left-0 top-full w-full transition-all;
   }
 
+  .new_card {
+    @apply relative before:content-['New'] before:absolute before:text-sm before:-top-7 before:px-2 before:py-0.5 before:bg-yellow-500;
+  }
+
   .hover_effect1 {
     @apply hover:cursor-pointer hover:underline hover:underline-offset-8;
   }

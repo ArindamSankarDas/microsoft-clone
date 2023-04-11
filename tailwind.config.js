@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        4: "repeat(4, minmax(0, 15rem))",
+        "4e": "repeat(4, minmax(0, 15rem))",
       },
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
@@ -18,6 +18,7 @@ module.exports = {
       },
       screens: {
         laptop2: "1125px",
+        lgextend: "1084px",
       },
     },
   },

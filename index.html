@@ -154,11 +154,11 @@
     <!-- carousel controller end -->
 
     <!-- grid start -->
-    <section class="grid place-items-center">
-      <main
-        class="grid grid-rows-4 grid-cols-1 gap-y-16 my-4 md:grid-cols-3 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 lg:gap-x-3"
+    <section class="products grid place-items-center">
+      <div
+        class="items_container grid grid-rows-4 grid-cols-1 gap-y-16 my-4 md:grid-cols-3 md:grid-rows-2 md:gap-x-5 lg:grid-cols-4e lg:grid-rows-1 lg:gap-x-3"
       >
-        <div class="flex flex-col items-center space-y-2">
+        <div class="item flex flex-col items-center space-y-2">
           <span class="text-6xl md:text-4xl lg:3xl"
             ><i class="fa-brands fa-windows"></i
           ></span>
@@ -166,7 +166,7 @@
             Choose your Microsoft 365
           </h1>
         </div>
-        <div class="flex flex-col items-center space-y-2">
+        <div class="item flex flex-col items-center space-y-2">
           <span class="text-6xl md:text-4xl lg:3xl"
             ><i class="fa-solid fa-laptop"></i
           ></span>
@@ -174,7 +174,7 @@
             Explore Surface devices
           </h1>
         </div>
-        <div class="flex flex-col items-center space-y-2">
+        <div class="item flex flex-col items-center space-y-2">
           <span class="text-6xl md:text-4xl lg:3xl"
             ><i class="fa-brands fa-xbox"></i
           ></span>
@@ -182,7 +182,7 @@
             Buy Xbox games
           </h1>
         </div>
-        <div class="flex flex-col items-center space-y-2">
+        <div class="item flex flex-col items-center space-y-2">
           <span class="text-6xl md:text-4xl lg:3xl"
             ><i class="fa-brands fa-windows"></i
           ></span>
@@ -190,8 +190,114 @@
             Get Windows 11
           </h1>
         </div>
-      </main>
+      </div>
     </section>
+    <!-- products end -->
+
+    <!-- cards start -->
+    <section
+      class="cards_container mt-6 grid place-items-center w-full lg:px-20 md:mt-20"
+    >
+      <div
+        class="grid grid-rows-4 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lgextend:grid-cols-4 lgextend:grid-rows-1 md:gap-x-8"
+      >
+        <div class="card flex flex-col px-5 lg:px-0">
+          <img
+            src="./images/Content-Card-Surface-Laptop-5-M1-Platinum-01-1.webp"
+            alt="pic"
+          />
+          <h2
+            class="font-semibold text-2xl mt-10 mb-2 new_card lg:text-3xl lg:font-sans lg:font-medium"
+          >
+            Surface Laptop 5
+          </h2>
+          <p>
+            Sophisticated style and multitasking speed powered by 12th Gen
+            Intel® Core, with Windows 11.
+          </p>
+          <button
+            class="text-left mt-5 text-blue-800 font-semibold text-lg hover:underline lg:text-base"
+          >
+            Learn More
+            <span class="arrow p-[4px] -rotate-[138deg] ml-1"></span>
+          </button>
+        </div>
+        <div class="card flex flex-col px-5 lg:px-0">
+          <img
+            class="w-full"
+            src="./images/Surface-Laptop-Studio-01-CP.jpeg"
+            alt="pic"
+          />
+          <h2
+            class="font-semibold text-2xl mt-10 mb-2 lg:text-3xl lg:font-sans lg:font-medium"
+          >
+            Surface Laptop Studio
+          </h2>
+          <p>
+            Flex your creative muscle on the most powerful Surface Laptop. Now
+            available with Windows 11.
+          </p>
+          <button
+            class="text-left mt-5 text-blue-800 font-semibold text-lg hover:underline lg:text-base"
+          >
+            Learn More
+            <span class="arrow p-[4px] -rotate-[138deg] ml-1"></span>
+          </button>
+        </div>
+        <div class="card flex flex-col px-5 lg:px-0">
+          <img
+            class="w-full"
+            src="./images/Content-Card-Surface-Pro-9-M1-Platinum-02-1.jpeg"
+            alt="pic"
+          />
+          <h2
+            class="font-semibold text-2xl mt-10 mb-2 new_card lg:text-3xl lg:font-sans lg:font-medium"
+          >
+            Surface Pro 9
+          </h2>
+          <p>
+            S The tablet flexibility you want and the laptop performance you
+            need — all in one ultra-portable device.
+          </p>
+          <button
+            class="text-left mt-5 text-blue-800 font-semibold text-lg hover:underline lg:text-base"
+          >
+            Learn More
+            <span class="arrow p-[4px] -rotate-[138deg] ml-1"></span>
+          </button>
+        </div>
+        <div class="card flex flex-col px-5 lg:px-0">
+          <img
+            class="w-full"
+            src="./images/Content-Card-Bing-AI-No-Text.webp"
+            alt="pic"
+          />
+          <h2
+            class="font-semibold text-2xl mt-10 mb-2 lg:text-3xl lg:font-sans lg:font-medium"
+          >
+            Introducing the new Bing
+          </h2>
+          <p>
+            Your AI-powered copilot for the web. Ask questions. Chat to refine
+            results. Get comprehensive answers and creative inspiration.
+          </p>
+          <button
+            class="text-left mt-5 text-blue-800 font-semibold text-lg hover:underline lg:text-base"
+          >
+            Join the Bing Preview
+            <span class="arrow p-[4px] -rotate-[138deg] ml-1"></span>
+          </button>
+          <button
+            class="text-left mt-5 text-blue-800 font-semibold text-lg hover:underline lg:text-base"
+          >
+            Learn About the Image Creator in Bing
+            <span class="arrow p-[4px] -rotate-[138deg] ml-1"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- cards end -->
+    <section class="mt-10"></section>
   </body>
   <script>
     const nav = document.getElementsByClassName("navbar");
