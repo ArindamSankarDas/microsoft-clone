@@ -17,6 +17,6 @@
   }
 
   .hover_effect1 {
-    @apply hover:cursor-pointer hover:underline;
+    @apply hover:cursor-pointer hover:underline hover:underline-offset-8;
   }
 }

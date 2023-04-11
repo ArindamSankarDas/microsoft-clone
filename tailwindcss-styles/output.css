@@ -539,6 +539,7 @@ video {
 .hover_effect1:hover{
   cursor: pointer;
   text-decoration-line: underline;
+  text-underline-offset: 8px;
 }
 
 .relative{
