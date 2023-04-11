@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .pseudo_element {
+    @apply absolute left-0 w-full h-full bg-black;
+  }
+
+  .arrow {
+    @apply border-l-2 border-b-2 border-black inline-block;
+  }
+
+  .toggle_items {
+    @apply absolute left-0 top-full w-full transition-all;
+  }
+
+  .hover_effect1 {
+    @apply hover:cursor-pointer hover:underline;
+  }
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
+    <link rel="stylesheet" href="./tailwindcss-styles/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header
+      class="flex justify-between lg:justify-around items-center p-4 relative"
+    >
+      <!-- toggler and search-->
+      <div class="search_and_toggle flex space-x-6 lg:hidden">
+        <div id="toggler" class="cursor-pointer">
+          <div
+            class="hamburger top-1/2 -translate-y-1/2 w-6 h-0.5 rounded-full bg-black relative before:pseudo_element before:-top-2 before:rounded-full after:pseudo_element after:top-2 after:rounded-full"
+          ></div>
+        </div>
+
+        <button class="search cursor-pointer relative top-[2px]">
+          <i class="fa-solid fa-magnifying-glass text-xl"></i>
+        </button>
+      </div>
+
+      <!-- log and nav -->
+      <div class="logo_and_nav flex items-center lg:space-x-7">
+        <div
+          class="logo relative w-24 h-2 left-3 flex items-center space-x-2 lg:static lg:w-32"
+        >
+          <img class="w-full" src="./images/Microsoft-Logo.png" alt="micro" />
+        </div>
+
+        <nav
+          class="navbar toggle_items border-b-2 -left-full border-black bg-nav lg:static lg:inline-block lg:border-none lg:bg-transparent"
+        >
+          <ul
+            class="flex flex-col items-start h-full text-lg lg:flex-row lg:items-center lg:space-x-5 lg:text-sm"
+          >
+            <li
+              class="w-full hover_effect1 p-4 border-gray-300 border-b-2 lg:w-auto lg:p-0 lg:border-none"
+            >
+              Microsoft 365
+            </li>
+            <li
+              class="w-full hover_effect1 p-5 border-gray-300 border-b-2 lg:w-auto lg:p-0 lg:border-none"
+            >
+              Teams
+            </li>
+            <li
+              class="w-full hover_effect1 p-5 border-gray-300 border-b-2 lg:w-auto lg:p-0 lg:border-none"
+            >
+              Windows
+            </li>
+            <li
+              class="w-full hover_effect1 p-5 border-gray-300 border-b-2 lg:w-auto lg:p-0 lg:border-none"
+            >
+              Surface
+            </li>
+            <li
+              class="w-full hover_effect1 p-5 border-gray-300 border-b-2 lg:w-auto lg:p-0 lg:border-none"
+            >
+              Xbox
+            </li>
+            <li
+              class="w-full hover_effect1 p-5 border-gray-300 border-b-2 lg:w-auto lg:p-0 lg:border-none"
+            >
+              Support
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- account, cart, search and dropdown -->
+      <div
+        class="cart_account_search_dropdown flex justify-center items-center space-x-6 text-xl lg:text-sm lg:space-x-8"
+      >
+        <div class="dropdown hidden hover_effect1 space-x-1 lg:inline-block">
+          <span> All Microsoft </span>
+          <i class="arrow p-[3px] -rotate-45 align-middle mb-1"></i>
+        </div>
+        <div
+          class="search hidden space-x-0 lg:inline-block cursor-pointer lg:space-x-2"
+        >
+          <span class="hidden laptop2:inline-block hover_effect1">Search</span>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="cart relative cursor-pointer lg:space-x-2">
+          <span class="hidden laptop2:inline-block hover_effect1">Cart</span>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="account relative cursor-pointer lg:space-x-2">
+          <span class="hidden laptop2:inline-block hover_effect1">Sign In</span>
+          <i class="fa-regular fa-user"></i>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- carousel -->
+    <div
+      class="carousel flex shadow-sliderShadow flex-col-reverse w-full h-auto lg:flex-row lg:items-center lg:bg-black lg:shadow-none"
+    >
+      <div class="w-full px-4 py-6 lg:w-1/2 lg:px-32 lg:text-white">
+        <h2 class="text-2xl mb-3 font-ubuntu font-semibold lg:text-3xl">
+          Xbox Game Pass
+        </h2>
+        <p class="text-base mb-6">
+          Play hundreds of high-quality games on your console and PC, including
+          new games on day one, online multiplayer and EA Play
+        </p>
+        <button
+          class="px-3 py-3 text-base bg-blue-800 text-white text-bold hover:bg-blue-900"
+        >
+          Compare all plans
+        </button>
+      </div>
+      <div class="w-full lg:w-1/2">
+        <img
+          class="w-full"
+          src="./images/Highlight-Slim-Multi-Canvas-AEM-PC-Game-Pass-Expansion_VP2-859x540.webp"
+          alt="gamePic"
+        />
+      </div>
+    </div>
+    <!-- carousel end -->
+
+    <!-- carousel controller start -->
+    <div class="carousel_controler grid place-items-center my-8">
+      <div
+        class="controler space-x-8 align-middle flex justify-center items-center"
+      >
+        <span class="text-xl lg:text-2xl"
+          ><i class="fa-regular fa-circle-play"></i
+        ></span>
+        <span class="arrow p-1 rotate-45"></span>
+        <span class="carousel_counter space-x-8 text-[8px] lg:text-[10px]">
+          <span><i class="fa-regular fa-circle"></i></span>
+          <span><i class="fa-solid fa-circle"></i></span>
+        </span>
+        <span class="arrow p-1 -rotate-[138deg]"></span>
+      </div>
+    </div>
+    <!-- carousel controller end -->
+
+    <!-- grid start -->
+    <section class="grid place-items-center">
+      <main class="grid grid-rows-4 grid-cols-1 gap-y-16 my-4 md:grid-cols-3 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 lg:gap-x-3">
+        <div class="flex flex-col items-center space-y-2">
+          <span class="text-6xl md:text-4xl lg:3xl"><i class="fa-brands fa-windows"></i></span>
+          <h1 class="text-blue-600 text-lg underline lg:text-base">
+            Choose your Microsoft 365
+          </h1>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <span class="text-6xl md:text-4xl lg:3xl"><i class="fa-solid fa-laptop"></i></span>
+          <h1 class="text-blue-600 text-lg underline lg:text-base">
+            Explore Surface devices
+          </h1>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <span class="text-6xl md:text-4xl lg:3xl"><i class="fa-brands fa-xbox"></i></span>
+          <h1 class="text-blue-600 text-lg underline lg:text-base">Buy Xbox games</h1>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+          <span class="text-6xl md:text-4xl lg:3xl"><i class="fa-brands fa-windows"></i></span>
+          <h1 class="text-blue-600 text-lg underline lg:text-base">Get Windows 11</h1>
+        </div>
+      </main>
+    </section>
+  </body>
+  <script src="./index.js"></script>
+</html>
