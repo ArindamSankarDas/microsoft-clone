@@ -18,6 +18,7 @@
   <body>
     <!-- header start -->
     <header
+      id="head"
       class="flex justify-between lg:justify-around items-center p-4 relative"
     >
       <!-- toggler and search-->
@@ -126,11 +127,7 @@
         </button>
       </div>
       <div class="w-full lg:w-1/2">
-        <img
-          class="w-full"
-          src="./images/gaming-canvas.webp"
-          alt="gamePic"
-        />
+        <img class="w-full" src="./images/gaming-canvas.webp" alt="gamePic" />
       </div>
     </div>
     <!-- carousel end -->
@@ -202,10 +199,7 @@
         class="cards_container grid grid-rows-4 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lgextend:grid-cols-4 lgextend:grid-rows-1 md:gap-x-8"
       >
         <div class="card flex flex-col px-5 lg:px-0">
-          <img
-            src="./images/Surface-Laptop-5.webp"
-            alt="pic"
-          />
+          <img src="./images/Surface-Laptop-5.webp" alt="pic" />
           <h2
             class="font-semibold text-2xl mt-10 mb-2 new_card lg:text-3xl lg:font-sans lg:font-medium"
           >
@@ -223,11 +217,7 @@
           </button>
         </div>
         <div class="card flex flex-col px-5 lg:px-0">
-          <img
-            class="w-full"
-            src="./images/Surface-Laptop.jpeg"
-            alt="pic"
-          />
+          <img class="w-full" src="./images/Surface-Laptop.jpeg" alt="pic" />
           <h2
             class="font-semibold text-2xl mt-10 mb-2 lg:text-3xl lg:font-sans lg:font-medium"
           >
@@ -245,11 +235,7 @@
           </button>
         </div>
         <div class="card flex flex-col px-5 lg:px-0">
-          <img
-            class="w-full"
-            src="./images/Surface-Pro-9.jpeg"
-            alt="pic"
-          />
+          <img class="w-full" src="./images/Surface-Pro-9.jpeg" alt="pic" />
           <h2
             class="font-semibold text-2xl mt-10 mb-2 new_card lg:text-3xl lg:font-sans lg:font-medium"
           >
@@ -267,11 +253,7 @@
           </button>
         </div>
         <div class="card flex flex-col px-5 lg:px-0">
-          <img
-            class="w-full"
-            src="./images/bing.webp"
-            alt="pic"
-          />
+          <img class="w-full" src="./images/bing.webp" alt="pic" />
           <h2
             class="font-semibold text-2xl mt-10 mb-2 lg:text-3xl lg:font-sans lg:font-medium"
           >
@@ -309,7 +291,7 @@
       </div>
 
       <div
-        class="info mt-11 px-4 md:w-[90%] md:xbox_md lg:static lg:translate-x-0 lg:px-0 lg:py-0 lg:mt-0 lg:bg-transparent lg:w-1/2"
+        class="info mt-11 px-4 md:w-[90%] md:xbox_md md:shadow-allOverShadow lg:static lg:translate-x-0 lg:px-0 lg:py-0 lg:mt-0 lg:bg-transparent lg:w-1/2 lg:shadow-none"
       >
         <h1 class="text-2xl font-semibold mb-4 md:text-4xl">Xbox Series X</h1>
         <p class="text-md lg:text-lg">The fastest most powerful Xbox ever</p>
@@ -324,7 +306,7 @@
 
     <!-- business cards start -->
     <section
-      class="business_cards cards_container mt-14 grid place-items-center w-full lg:px-16 md:mt-20"
+      class="business_cards cards_container mt-14 grid place-items-center w-full lg:px-16 md:mt-36 lg:mt-14"
     >
       <h1
         class="title text-left w-full pl-5 lg:pl-0 text-2xl my-7 lg:text-4xl font-semibold"
@@ -332,7 +314,7 @@
         For business
       </h1>
       <div
-        class="cards_container grid grid-rows-4 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lgextend:grid-cols-4 lgextend:grid-rows-1 md:gap-x-8"
+        class="cards_container grid grid-rows-4 grid-cols-1 gap-y-7 md:grid-rows-2 md:grid-cols-2 lgextend:grid-cols-4 lgextend:grid-rows-1 md:gap-x-8"
       >
         <div class="card flex flex-col px-5 lg:px-0">
           <img src="./images/surface-family.webp" alt="pic" />
@@ -414,7 +396,31 @@
       </div>
     </section>
     <!-- business cards end -->
-    <section class="mt-10"></section>
+
+    <!-- social links start -->
+    <section class="social_container mt-10 px-5 lg:px-16 flex items-center">
+      <span class="text-lg lg:text-base">Follow Microsoft</span>
+      <div class="links text-2xl ml-4 space-x-3">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </section>
+    <!-- social links end -->
+
+    <!-- bacltoTop start -->
+    <div
+      class="back_to_top px-5 mt-6 grid place-items-center md:place-items-end"
+    >
+      <a
+        href="#head"
+        class="py-3 bg-xbox w-full text-center text-base font-semibold md:w-auto md:px-3 hover:bg-white hover:shadow-allOverShadow"
+        ><i class="fa-solid mr-2 fa-arrow-up"></i>Back to Top</a
+      >
+    </div>
+    <!-- bacltoTop end -->
+
+    <footer class="mt-10"></footer>
   </body>
   <script>
     const nav = document.getElementsByClassName("navbar");

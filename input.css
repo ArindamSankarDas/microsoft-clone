@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer components {
   .pseudo_element {
     @apply absolute left-0 w-full h-full bg-black;
