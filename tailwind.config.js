@@ -15,6 +15,7 @@ module.exports = {
       },
       colors: {
         nav: "#e6e6e6",
+        xbox: "#edeef0",
       },
       screens: {
         laptop2: "1125px",

@@ -20,6 +20,10 @@
     @apply relative before:content-['New'] before:absolute before:text-sm before:-top-7 before:px-2 before:py-0.5 before:bg-yellow-500;
   }
 
+  .xbox_md {
+    @apply bg-white absolute -bottom-40 left-1/2 -translate-x-1/2 px-10 py-6;
+  }
+
   .hover_effect1 {
     @apply hover:cursor-pointer hover:underline hover:underline-offset-8;
   }
