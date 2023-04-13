@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
       },
+      fontSize: {
+        xxs: "0.7rem",
+      },
       boxShadow: {
         sliderShadow:
           "0 .125rem .25rem 0 rgba(0,0,0,.13),0 0 .0625rem 0 rgba(0,0,0,.11)",
@@ -19,9 +22,13 @@ module.exports = {
         nav: "#e6e6e6",
         xbox: "#edeef0",
       },
+      textColor: {
+        footerHeader: "#616161",
+      },
       screens: {
         laptop2: "1125px",
         lgextend: "1084px",
+        sm_extended: "540px",
       },
     },
   },
